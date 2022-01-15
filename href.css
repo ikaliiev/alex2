@@ -3,7 +3,7 @@ body {
   background-size: 100%;
 }
 a {
-    color: #00806d; 
+    color: #808a88; 
     padding: 2px; 
    }
 a:hover {
@@ -15,6 +15,9 @@ tr {
     color: #eff0e4; 
 }
 font {
-    color: #eff0e4; 
+    color: #171717; 
 }
-    
+font:hover {
+    text-decoration: none; 
+    color: #c4c0ff;
+   }

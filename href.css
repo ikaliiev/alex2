@@ -1,5 +1,5 @@
 body {
-  background-image: url("wallpaper.jpg");
+  background-image: url("https://murmuring-bastion-34884.herokuapp.com/wallpaper.jpg");
   background-size: 100%;
 }
 a {
@@ -21,3 +21,12 @@ footer:hover {
     text-decoration: none; 
     color: #c4c0ff;
    }
+th {
+  color: black;
+}
+
+th.odd {
+  background-color: #646968;
+  opacity: 0.8
+}
+

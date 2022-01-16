@@ -34,4 +34,9 @@ th.odd {
   background-color: #646968;
   opacity: 0.8
 }
+span.icon 
+{
+    font-size: 3em; 
+    display: block; 
+   }
 

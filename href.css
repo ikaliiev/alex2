@@ -4,16 +4,17 @@ tr.header
 }
 
 body {
-  background-image: url("https://murmuring-bastion-34884.herokuapp.com/wallpaper.jpg");
+  background-image: url("https://images.wallpaperscraft.ru/image/single/gradient_tsvetnoj_ottenki_140497_3840x2400.jpg");
   background-size: 100%;
 }
 a {
-    color: #808a88; 
+    color: #0d0d0d; 
     padding: 2px; 
+    text-decoration: none
    }
 a:hover {
     text-decoration: none; 
-    color: #c4c0ff;
+    color: #400808;
    }
 
 tr {
@@ -24,7 +25,7 @@ footer {
 }
 footer:hover {
     text-decoration: none; 
-    color: #c4c0ff;
+    color: #400808;
    }
 th {
   color: black;

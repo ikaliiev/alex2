@@ -127,9 +127,15 @@ p.hello {
     text-align: center
 }
 
-p.menu_text {
+.menu_text {
     font-size: 100%;
     font-family: "comic sans ms";
+}
+.menu_text:hover {
+    text-decoration: none;
+    color: #400808;
+    font-size: 110%;
+    transition: 0.2s;
 }
 
 video {

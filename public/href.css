@@ -1,47 +1,145 @@
-tr.header
-{
-  position: fixed;
+tr.header {
+    position: fixed;
+    
 }
 
 body {
-  background-image: url("wallpaper.jpg");
-  background-size: 80%;
-
+    background-image: url("wallpaper.jpg");
+    background-size: 100%;
 }
-a {
-    color: #0d0d0d; 
-    padding: 2px; 
+
+a { display: inline-block;
+    color: #0d0d0d;
+    padding: 2px;
     text-decoration: none
-   }
+}
+
 a:hover {
-    text-decoration: none; 
+    text-decoration: none;
     color: #400808;
-   }
+    font-size:150%;
+    transition: 0.2s;
+}
+a:not(:hover) {
+  transition: 0.2s;
+}
+
 
 tr {
-    color: #eff0e4; 
+    color: #eff0e4;
 }
+
 footer {
-    color: #171717; 
+    color: #171717;
 }
+
 footer:hover {
-    text-decoration: none; 
+    text-decoration: none;
     color: #400808;
-   }
+    font-size:150%;
+    transition: 0.2s;
+}
+footer:not(:hover) {
+  transition: 0.2s;
+}
+
+
 th {
-  color: black;
+    color: black;
 }
 
 th.odd {
-  background-color: #646968;
-  opacity: 0.8
+    background-color: #646968;
+    opacity: 0.8
 }
-span.icon 
+
+span.icon {
+    font-size: 2em;
+    display: block;
+}
+
+th.smile {
+    font-size: 4em
+}
+
+img.photo {
+    border-radius: 20px
+}
+
+.contacts {
+    width: 30px;
+    height: 30px;
+}
+.icon:hover {
+    text-decoration: none;
+    color: #400808;
+    font-size:150%;
+    transition: 0.2s;    
+}
+.icon:not(:hover) {
+  transition: 0.2s;
+}
+
+p.text
 {
-    font-size: 2em; 
-    display: block; 
-   }
+width: 50%;
+font-size: 150%;
+font-family: "comic sans ms"
+}
+a.link
+{
+width: 100%;
+font-size: 150%;
+font-family: "comic sans ms";
+color: black;
+
+}
+p.hello
+{
+font-size: 250%;
+font-family: "comic sans ms";
+color: black 
+}
+.wrap {
+            display: flex;
+            flex: 1 1 auto;   
+        }
+
+        .card {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+            align-self: flex-start;
+            width: 70%;
+            padding: 35px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+.card__item {
+            display: flex;
+            flex-direction: column;
+            width: calc(35% - 30px);
+            box-sizing: border-box;
+            padding: 20px;
+            min-height: 300px;
+            text-align: center
+        }
+p.menu_text
+{
+
+font-size: 100%;
+font-family: "comic sans ms";
+}
 video {
     object-fit: fill;
+}
+.image:hover
+{
+  transform: scale(1.2);
+ display: block;
+  transition: 0.2s;
+}
+.image {
+transition: 2s;
 }
 

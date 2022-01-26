@@ -1,4 +1,4 @@
-tr.header {
+.header {
     position: fixed;
 }
 
@@ -130,6 +130,10 @@ p.hello {
 .menu_text {
     font-size: 100%;
     font-family: "comic sans ms";
+    float: left;
+    margin-right: 5px; 
+    margin-bottom: 5px;
+    text-align: center
 }
 .menu_text:hover {
     text-decoration: none;

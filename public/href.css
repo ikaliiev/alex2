@@ -5,11 +5,9 @@ tr.header
 
 body {
   background-image: url("wallpaper.jpg");
-<<<<<<< HEAD
+
   background-size: 80%;
-=======
-  background-size: 100%;
->>>>>>> 1bddc4bd41ef986f323ab85ae3e77ecb9cf6f3d7
+
 }
 a {
     color: #0d0d0d; 

@@ -1,6 +1,5 @@
 tr.header {
     position: fixed;
-    
 }
 
 body {
@@ -8,7 +7,8 @@ body {
     background-size: 100%;
 }
 
-a { display: inline-block;
+a {
+    display: inline-block;
     color: #0d0d0d;
     padding: 2px;
     text-decoration: none
@@ -17,13 +17,13 @@ a { display: inline-block;
 a:hover {
     text-decoration: none;
     color: #400808;
-    font-size:150%;
+    font-size: 150%;
     transition: 0.2s;
 }
-a:not(:hover) {
-  transition: 0.2s;
-}
 
+a:not(:hover) {
+    transition: 0.2s;
+}
 
 tr {
     color: #eff0e4;
@@ -36,13 +36,13 @@ footer {
 footer:hover {
     text-decoration: none;
     color: #400808;
-    font-size:150%;
+    font-size: 150%;
     transition: 0.2s;
 }
-footer:not(:hover) {
-  transition: 0.2s;
-}
 
+footer:not(:hover) {
+    transition: 0.2s;
+}
 
 th {
     color: black;
@@ -70,76 +70,78 @@ img.photo {
     width: 30px;
     height: 30px;
 }
+
 .icon:hover {
     text-decoration: none;
     color: #400808;
-    font-size:150%;
-    transition: 0.2s;    
+    font-size: 130%;
+    transition: 0.2s;
 }
+
 .icon:not(:hover) {
-  transition: 0.2s;
+    transition: 0.2s;
 }
 
-p.text
-{
-width: 50%;
-font-size: 150%;
-font-family: "comic sans ms"
+p.text {
+    width: 50%;
+    font-size: 150%;
+    font-family: "comic sans ms"
 }
-a.link
-{
-width: 100%;
-font-size: 150%;
-font-family: "comic sans ms";
-color: black;
 
+a.link {
+    width: 100%;
+    font-size: 150%;
+    font-family: "comic sans ms";
+    color: black;
 }
-p.hello
-{
-font-size: 250%;
-font-family: "comic sans ms";
-color: black 
+
+p.hello {
+    font-size: 250%;
+    font-family: "comic sans ms";
+    color: black
 }
+
 .wrap {
-            display: flex;
-            flex: 1 1 auto;   
-        }
-
-        .card {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: space-between;
-            align-self: flex-start;
-            width: 70%;
-            padding: 35px;
-            margin-left: auto;
-            margin-right: auto;
-        }
-.card__item {
-            display: flex;
-            flex-direction: column;
-            width: calc(35% - 30px);
-            box-sizing: border-box;
-            padding: 20px;
-            min-height: 300px;
-            text-align: center
-        }
-p.menu_text
-{
-
-font-size: 100%;
-font-family: "comic sans ms";
+    display: flex;
+    flex: 1 1 auto;
 }
+
+.card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-self: flex-start;
+    width: 70%;
+    padding: 35px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.card__item {
+    display: flex;
+    flex-direction: column;
+    width: calc(35% - 30px);
+    box-sizing: border-box;
+    padding: 20px;
+    min-height: 300px;
+    text-align: center
+}
+
+p.menu_text {
+    font-size: 100%;
+    font-family: "comic sans ms";
+}
+
 video {
     object-fit: fill;
 }
-.image:hover
-{
-  transform: scale(1.2);
- display: block;
-  transition: 0.2s;
-}
-.image {
-transition: 2s;
+
+.image:hover {
+    transform: scale(1.1);
+    display: block;
+    transition: 0.2s;
 }
 
+.image {
+    transition: 0.2s;
+}

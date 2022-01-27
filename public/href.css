@@ -12,6 +12,11 @@ body {
 	color: #798f8c;
 }
 
+.menu_image
+{
+width: 15px;
+}
+
 .main {
 	text-align: center;
 }

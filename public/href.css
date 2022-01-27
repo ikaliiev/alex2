@@ -146,6 +146,10 @@ video {
 }
 .error
 {
+    margin-left: auto;
+    margin-right: auto;
     text-align: center;
+    font-family: comic sans ms;
+    font-size: 130%;
 }
 

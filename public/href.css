@@ -24,37 +24,28 @@ body {
 .emoji
 {
 	margin: auto;
+	text-align: center;
+	font-family: "comic sans ms";
 }
-
+tr.smile:nth-child(even) 
+{
+	color:white;
+	background-color: #1b1f1e;
+  }
 a {
 	display: inline-block;
 	color: #0d0d0d;
 	padding: 2px;
 	text-decoration: none
 }
-
-tr {
-	color: #eff0e4;
-}
-
-th {
-	color: black;
-}
-
-th.odd {
-	background-color: #646968;
-	opacity: 0.8
-}
-
-th.smile {
-	font-size: 4em
+.smile {
+	font-size: 2em;
+	font-family: "comic sans ms";
 }
 
 img.photo {
 	border-radius: 20px
 }
-
-
 
 .wrap {
 	display: flex;

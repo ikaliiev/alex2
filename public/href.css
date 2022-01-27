@@ -1,5 +1,16 @@
-tr.header {
+header {
     position: fixed;
+}
+.menu_icon
+{
+  font-family: "comic sans ms";  
+}
+.menu_icon:hover
+{
+   text-decoration: none;
+    color: #455957;
+    font-size: 105%;
+    transition: 0.2s; 
 }
 
 body {
@@ -53,10 +64,7 @@ th.odd {
     opacity: 0.8
 }
 
-span.icon {
-    font-size: 2em;
-    display: block;
-}
+
 
 th.smile {
     font-size: 4em
@@ -71,16 +79,7 @@ img.photo {
     height: 30px;
 }
 
-.icon:hover {
-    text-decoration: none;
-    color: #400808;
-    font-size: 130%;
-    transition: 0.2s;
-}
 
-.icon:not(:hover) {
-    transition: 0.2s;
-}
 
 p.text {
     width: 50%;

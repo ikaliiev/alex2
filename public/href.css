@@ -1,156 +1,153 @@
 header {
-    position: fixed;
+	position: fixed;
 }
-.menu_icon
-{
-  font-family: "comic sans ms";  
+
+.menu_icon {
+	font-family: "comic sans ms";
 }
-.menu_icon:hover
-{
-   text-decoration: none;
-    color: #455957;
-    
-    transition: 0.2s; 
+
+.menu_icon:hover {
+	text-decoration: none;
+	color: #798f8c;
+	transition: 0.2s;
+}
+
+.main {
+	text-align: center;
 }
 
 body {
-    background-image: url("wallpaper.jpg");
-    background-size: 100%;
+	background-image: url("wallpaper.jpg");
+	background-size: 100%;
 }
 
 a {
-    display: inline-block;
-    color: #0d0d0d;
-    padding: 2px;
-    text-decoration: none
-}
-
-a:hover {
-    text-decoration: none;
-    color: #400808;
-    font-size: 103%;
-    transition: 0.2s;
-}
-
-a:not(:hover) {
-    transition: 0.2s;
+	display: inline-block;
+	color: #0d0d0d;
+	padding: 2px;
+	text-decoration: none
 }
 
 tr {
-    color: #eff0e4;
-}
-
-footer {
-    color: #171717;
-}
-
-footer:hover {
-    text-decoration: none;
-    color: #400808;
-    font-size: 150%;
-    transition: 0.2s;
-}
-
-footer:not(:hover) {
-    transition: 0.2s;
+	color: #eff0e4;
 }
 
 th {
-    color: black;
+	color: black;
 }
 
 th.odd {
-    background-color: #646968;
-    opacity: 0.8
+	background-color: #646968;
+	opacity: 0.8
 }
 
-
-
 th.smile {
-    font-size: 4em
+	font-size: 4em
 }
 
 img.photo {
-    border-radius: 20px
+	border-radius: 20px
 }
 
 .contacts {
-    width: 30px;
-    height: 30px;
-}
-
-
-
-p.text {
-    width: 50%;
-    font-size: 150%;
-    font-family: "comic sans ms"
+	width: 30px;
+	height: 30px;
 }
 
 a.link {
-    width: 100%;
-    font-size: 150%;
-    font-family: "comic sans ms";
-    color: black;
+	width: 100%;
+	font-size: 150%;
+	font-family: "comic sans ms";
+	color: black;
 }
 
 p.hello {
-    font-size: 250%;
-    font-family: "comic sans ms";
-    color: black
+	font-size: 250%;
+	font-family: "comic sans ms";
+	color: black
 }
 
 .wrap {
-    display: flex;
-    flex: 1 1 auto;
+	display: flex;
+	flex: 1 1 auto;
 }
 
 .card {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-    align-self: flex-start;
-    width: 70%;
-    padding: 35px;
-    margin-left: auto;
-    margin-right: auto;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-self: flex-start;
+	width: 70%;
+	padding: 35px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .card__item {
-    display: flex;
-    flex-direction: column;
-    width: calc(35% - 30px);
-    box-sizing: border-box;
-    padding: 20px;
-    min-height: 300px;
-    text-align: center
+	display: flex;
+	flex-direction: column;
+	width: calc(35% - 30px);
+	box-sizing: border-box;
+	padding: 20px;
+	min-height: 300px;
+	text-align: center
 }
 
 .menu_text {
-    font-size: 100%;
-    font-family: "comic sans ms";
-    float: left;
-    margin-right: 5px; 
-    margin-bottom: 5px;
-    text-align: center
+	font-size: 100%;
+	font-family: "comic sans ms";
+	float: left;
+	margin-right: 5px;
+	margin-bottom: 5px;
+	text-align: center
 }
+
 .menu_text:hover {
-    text-decoration: none;
-    color: #400808;
-    font-size: 105%;
-    transition: 0.2s;
+	text-decoration: none;
+	color: #798f8c;
+	font-size: 105%;
+	transition: 0.2s;
 }
 
 video {
-    object-fit: fill;
+	object-fit: fill;
 }
 
 .image:hover {
-    transform: scale(1.1);
-    display: block;
-    transition: 0.2s;
+	transform: scale(1.1);
+	display: block;
+	transition: 0.2s;
 }
 
 .image {
-    transition: 0.2s;
+	transition: 0.2s;
+}
+
+.text {
+	text-align: center;
+	width: 50%;
+	font-size: 150%;
+	font-family: "comic sans ms"
+}
+
+.footer {
+	text-align: center;
+	color: #171717;
+}
+
+.footer:hover {
+	text-decoration: none;
+	color: #798f8c;
+	font-size: 105%;
+	transition: 0.2s;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #798f8c;
+	transition: 0.2s;
+}
+
+a:not(:hover) {
+	transition: 0.2s;
 }

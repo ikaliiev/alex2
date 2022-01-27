@@ -2,9 +2,6 @@ body {
 	background-image: url("wallpaper.jpg");
 	background-size: 100%;
 }
-.header {
-	position: fixed;
-}
 
 .menu_icon {
 	font-family: "comic sans ms";
@@ -13,7 +10,6 @@ body {
 .menu_icon:hover {
 	text-decoration: none;
 	color: #798f8c;
-	transition: 0.2s;
 }
 
 .main {
@@ -27,12 +23,8 @@ body {
 }
 .emoji
 {
-	display:flex;
-	text-align: center;
-	justify-content: center;
+	margin: auto;
 }
-
-
 
 a {
 	display: inline-block;

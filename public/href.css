@@ -1,3 +1,7 @@
+body {
+	background-image: url("wallpaper.jpg");
+	background-size: 100%;
+}
 header {
 	position: fixed;
 }
@@ -15,11 +19,15 @@ header {
 .main {
 	text-align: center;
 }
-
-body {
-	background-image: url("wallpaper.jpg");
-	background-size: 100%;
+.hello {
+    text-align: center;
+    display: flex;
+	font-size: 250%;
+	font-family: "comic sans ms";
+	color: black
 }
+
+
 
 a {
 	display: inline-block;
@@ -49,23 +57,7 @@ img.photo {
 	border-radius: 20px
 }
 
-.contacts {
-	width: 30px;
-	height: 30px;
-}
 
-a.link {
-	width: 100%;
-	font-size: 150%;
-	font-family: "comic sans ms";
-	color: black;
-}
-
-p.hello {
-	font-size: 250%;
-	font-family: "comic sans ms";
-	color: black
-}
 
 .wrap {
 	display: flex;
@@ -124,7 +116,8 @@ video {
 }
 
 .text {
-	text-align: center;
+	margin-left: auto;
+    margin-right: auto;
 	width: 50%;
 	font-size: 150%;
 	font-family: "comic sans ms"
@@ -132,22 +125,24 @@ video {
 
 .footer {
 	text-align: center;
-	color: #171717;
+	color: #272525;
 }
 
-.footer:hover {
+
+.link {
+    font-size: 130%;
+	font-family: "comic sans ms";
+	
+}
+
+.link:hover {
 	text-decoration: none;
 	color: #798f8c;
-	font-size: 105%;
+	font-size: 140%;
 	transition: 0.2s;
+}
+.contacts {
+	width: 30px;
+	height: 30px;
 }
 
-a:hover {
-	text-decoration: none;
-	color: #798f8c;
-	transition: 0.2s;
-}
-
-a:not(:hover) {
-	transition: 0.2s;
-}

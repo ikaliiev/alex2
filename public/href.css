@@ -21,7 +21,6 @@ header {
 }
 .hello {
     text-align: center;
-    display: flex;
 	font-size: 250%;
 	font-family: "comic sans ms";
 	color: black

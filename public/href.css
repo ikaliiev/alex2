@@ -9,7 +9,7 @@ header {
 {
    text-decoration: none;
     color: #455957;
-    font-size: 102%;
+    
     transition: 0.2s; 
 }
 
@@ -28,7 +28,7 @@ a {
 a:hover {
     text-decoration: none;
     color: #400808;
-    font-size: 150%;
+    font-size: 103%;
     transition: 0.2s;
 }
 

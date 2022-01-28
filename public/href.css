@@ -156,6 +156,7 @@ video {
 	width: 26px;
     height: 23px; 
 	background-image: url("email.png");
+	background-size: 1.6em 1.4em;
 	display: block;
 }
 .inst_image

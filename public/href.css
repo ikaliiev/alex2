@@ -133,10 +133,7 @@ video {
 	font-size: 140%;
 	transition: 0.2s;
 }
-.contacts {
-	width: 30px;
-	height: 30px;
-}
+
 .error
 {
     margin-left: auto;
@@ -145,15 +142,25 @@ video {
     font-family: comic sans ms;
     font-size: 130%;
 }
+.contacts {
+
+	text-align: center;
+}
+.email {
+	display: flex;
+    justify-content: center;
+}
+
 .email_image
 {
-	width: 30px;
-	height: 30px; 
+	width: 26px;
+    height: 23px; 
 	background-image: url("email.png");
+	display: block;
 }
 .inst_image
 {
 	width: 30px;
-	height: 30px; 
+	height: 30px; 	
 }
 

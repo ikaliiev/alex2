@@ -1,5 +1,5 @@
 body {
-	background-image: url("images/wallpaper.jpg");
+	background-image: url("../images/wallpaper.jpg");
 	background-size: 100%;
 }
 
@@ -155,7 +155,7 @@ video {
 .email_image {
 	width: 26px;
 	height: 23px;
-	background-image: url("images/email.png");
+	background-image: url("../images/email.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;

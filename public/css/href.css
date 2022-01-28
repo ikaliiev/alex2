@@ -1,5 +1,5 @@
 body {
-	background-image: url("wallpaper.jpg");
+	background-image: url("images/wallpaper.jpg");
 	background-size: 100%;
 }
 
@@ -12,37 +12,39 @@ body {
 	color: #798f8c;
 }
 
-.menu_image
-{
-width: 15px;
+.menu_image {
+	width: 15px;
 }
 
 .main {
 	text-align: center;
 }
+
 .hello {
-    text-align: center;
+	text-align: center;
 	font-size: 250%;
 	font-family: "comic sans ms";
 	color: black
 }
-.emoji
-{
+
+.emoji {
 	margin: auto;
 	text-align: center;
 	font-family: "comic sans ms";
 }
-tr.smile:nth-child(even) 
-{
-	color:white;
+
+tr.smile:nth-child(even) {
+	color: white;
 	background-color: #1b1f1e;
-  }
+}
+
 a {
 	display: inline-block;
 	color: #0d0d0d;
 	padding: 2px;
 	text-decoration: none
 }
+
 .smile {
 	font-size: 2em;
 	font-family: "comic sans ms";
@@ -110,7 +112,7 @@ video {
 
 .text {
 	margin-left: auto;
-    margin-right: auto;
+	margin-right: auto;
 	width: 50%;
 	font-size: 150%;
 	font-family: "comic sans ms"
@@ -122,9 +124,8 @@ video {
 }
 
 .link {
-    font-size: 130%;
+	font-size: 130%;
 	font-family: "comic sans ms";
-	
 }
 
 .link:hover {
@@ -134,35 +135,33 @@ video {
 	transition: 0.2s;
 }
 
-.error
-{
-    margin-left: auto;
-    margin-right: auto;
-    text-align: center;
-    font-family: comic sans ms;
-    font-size: 130%;
+.error {
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	font-family: comic sans ms;
+	font-size: 130%;
 }
-.contacts {
 
+.contacts {
 	text-align: center;
 }
+
 .email {
 	display: flex;
-    justify-content: center;
+	justify-content: center;
 }
 
-.email_image
-{
+.email_image {
 	width: 26px;
-    height: 23px; 
-	background-image: url("email.png");
+	height: 23px;
+	background-image: url("images/email.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 	display: block;
 }
-.inst_image
-{
-	width: 30px;
-	height: 30px; 	
-}
 
+.inst_image {
+	width: 30px;
+	height: 30px;
+}

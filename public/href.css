@@ -121,7 +121,6 @@ video {
 	color: #272525;
 }
 
-
 .link {
     font-size: 130%;
 	font-family: "comic sans ms";
@@ -150,5 +149,6 @@ video {
 {
 	width: 30px;
 	height: 30px; 
+	background-image: url("email.png");
 }
 

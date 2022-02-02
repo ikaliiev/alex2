@@ -165,3 +165,15 @@ video {
 	width: 30px;
 	height: 30px;
 }
+.inst {
+	display: flex;
+	justify-content: center;
+}
+.inst_image {
+	width: 26px;
+	height: 23px;
+	background-image: url("../images/inst.png");
+	background-size: contain;
+	background-repeat: no-repeat;
+	display: block;
+}

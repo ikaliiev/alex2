@@ -6,10 +6,10 @@ document.querySelector('#signup-submit').onclick = function(event){
 	let phone = document.querySelector('#signup-phone');
 	let pass = document.querySelector('#signup-pass');
 	let data = {
-		"name" :name;
-		"email":email;
-		"phone":phone;
-		"pass":pass;
+		"name" :name,
+		"email":email,
+		"phone":phone,
+		"pass":pass,
 	}
 
 	ajax('signup.php','POST',signup,dataArray);
@@ -18,6 +18,7 @@ document.querySelector('#signup-submit').onclick = function(event){
        console.log(result) ;
        if (result ==2) {
        	   alert('Заполните поля');
+	   }
        	   else if (result ==1) {
        	   	     alert('Успех. Теперь можно войти!')
 
@@ -30,15 +31,15 @@ document.querySelector('#signup-submit').onclick = function(event){
        
 
 	}
-}
+
 
 document.querySelector('#login-submit').onclick = function(event){
 	event.preventDefault();
 	let email = document.querySelector('#login-email');
 	let pass = document.querySelector('#login-pass');
 	let data = {
-		"email":email;
-		"pass":pass;
+		"email":email,
+		"pass":pass,
 	}
 
 	ajax('core/login.php','POST',login,dataArray);
@@ -47,7 +48,8 @@ document.querySelector('#login-submit').onclick = function(event){
        console.log(result) ;
        if (result ==2) {
        	   alert('Заполните поля');
-       	   else if (result ==0) {
+	   }
+       else if (result ==0) {
        	   	     alert('Такой пользователь не найден!')
 
        	   }
@@ -59,4 +61,3 @@ document.querySelector('#login-submit').onclick = function(event){
        
 
 	}
-}

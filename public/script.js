@@ -16,10 +16,10 @@ document.querySelector('#signup-submit').onclick = function(event){
 
 	function signup(result){
        console.log(result) ;
-       if (result ==2) {
+       if (result == 2) {
        	   alert('Заполните поля');
 	   }
-       	   else if (result ==1) {
+       	   else if (result == 1) {
        	   	     alert('Успех. Теперь можно войти!')
 
        	   }

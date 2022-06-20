@@ -5,7 +5,7 @@ document.querySelector('#signup-submit').onclick = function(event){
 	let email = document.querySelector('#signup-email');
 	let phone = document.querySelector('#signup-phone');
 	let pass = document.querySelector('#signup-pass');
-	let data = {
+	let dataArray = {
 		"name" :name,
 		"email":email,
 		"phone":phone,

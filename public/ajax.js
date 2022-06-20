@@ -13,9 +13,9 @@ function ajax(url,method,functionName,dataArray) {
    }
 
 }
-function requestData(dataArr) {
+function requestData(data) {
      let out = '';
-     for (let key in dataArr) {
+     for (let key in data) {
      	out += '${key}=${dataArr[key]}&';
      }
      console.log(out);

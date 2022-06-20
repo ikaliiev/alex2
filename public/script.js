@@ -5,7 +5,7 @@ document.querySelector('#signup-submit').onclick = function(event){
 	let email = document.querySelector('#signup-email');
 	let phone = document.querySelector('#signup-phone');
 	let pass = document.querySelector('#signup-pass');
-	let dataArray = {
+	let data = {
 		"name" :name,
 		"email":email,
 		"phone":phone,
@@ -14,8 +14,8 @@ document.querySelector('#signup-submit').onclick = function(event){
 
 	ajax('signup.php','POST',signup,dataArray);
 
-	function signup(result){
-       console.log(result) ;
+	function signup(data){
+       console.log(data) ;
        if (result ==2) {
        	   alert('Заполните поля');
 	   }

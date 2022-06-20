@@ -4,7 +4,7 @@ require_once 'config.php';
 $name = trim($_POST['firstname']);
 $email = trim($_POST['email']);
 $phone = trim($_POST['phone']);
-$pass = trim($POST['password']);
+$pass = trim($_POST['password']);
 
 if ($name == '' OR $email == '' OR $phone == '' OR $pass == ''){
    echo 2;

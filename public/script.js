@@ -12,10 +12,10 @@ document.querySelector('#signup-submit').onclick = function(event){
 		"pass":pass,
 	}
 
-	ajax('signup.php','POST',signup,dataArray);
+	ajax('signup.php','POST',signup,data);
 
-	function signup(data){
-       console.log(data) ;
+	function signup(result){
+       console.log(result) ;
        if (result ==2) {
        	   alert('Заполните поля');
 	   }

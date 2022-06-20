@@ -33,31 +33,3 @@ document.querySelector('#signup-submit').onclick = function(event){
 	}
 
 
-document.querySelector('#login-submit').onclick = function(event){
-	event.preventDefault();
-	let email = document.querySelector('#login-email');
-	let pass = document.querySelector('#login-pass');
-	let data = {
-		"email":email,
-		"pass":pass,
-	}
-
-	ajax('core/login.php','POST',login,dataArray);
-
-	function login(result){
-       console.log(result) ;
-       if (result ==2) {
-       	   alert('Заполните поля');
-	   }
-       else if (result ==0) {
-       	   	     alert('Такой пользователь не найден!')
-
-       	   }
-       	   else {
-       	   	     console.log(result);
-       	   }
-       }
-
-       
-
-	}

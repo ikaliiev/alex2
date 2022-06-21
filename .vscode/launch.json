@@ -4,13 +4,20 @@
     // Для получения дополнительной информации посетите: https://go.microsoft.com/fwlink/?linkid=830387
     "version": "0.2.0",
     "configurations": [
-   
+    
         {
-            "type": "pwa-chrome",
+            "name": "Launch Chrome",
             "request": "launch",
-            "name": "Launch Chrome against localhost",
-            "file": "E:\\Github\\alex2\\public\\index.html"
-            
+            "type": "chrome",
+            "url": "http://localhost",
+            "webRoot": "${workspaceFolder}"
+        },
+        {
+            "name": "Attach to Chrome",
+            "port": 9222,
+            "request": "attach",
+            "type": "chrome",
+            "webRoot": "${workspaceFolder}"
         }
     ]
 }
